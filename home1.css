@@ -1,0 +1,205 @@
+.wrapper{
+    width: 1000px;  
+    height: auto;
+    margin:auto;          
+}
+.header {
+    /* 1. Turns the header into a Flex container for horizontal alignment */
+    display: flex; 
+    
+    /* 2. Vertically centers all children (Logo, Search, Cart) */
+    align-items: center; 
+    
+    /* 3. Distributes space between the three main elements */
+    justify-content: space-between; 
+    
+    /* Remove fixed height: 150px to allow content to define height */
+    height: auto; 
+    padding: 15px 20px; 
+    border: 1px solid black;
+}
+#logo {
+    max-width: 150px; /* Adjust this value to your preferred width */
+    height: 100px;     /* Maintains the image aspect ratio */
+}
+#form_search {
+    /* Allows the search bar area to take up most of the available space */
+    flex-grow: 1; 
+    margin: 0 40px; 
+}
+
+#form_search form {
+    /* Makes the input and button line up horizontally */
+    display: flex;
+    max-width: 450px; /* Limits the search form width for better centering */
+    margin: 0 auto; /* Centers the form horizontally within the wide search area */
+}
+
+#form_search input[type="text"] {
+    flex-grow: 1; /* Input takes up all remaining space in the form */
+    height: 30px;
+}
+
+#form_search button {
+    height: 30px;
+    padding: 0 15px;
+    white-space: nowrap; 
+}
+
+#logo {
+    max-width: 150px; 
+    height: auto; /* CRITICAL: Ensures the logo maintains its aspect ratio */
+}
+
+.cart-icon a {
+    position: relative;
+    display: block;
+}
+
+#cart-count {
+    /* Positions the '0' badge over the cart icon */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: absolute; 
+    top: -5px; 
+    right: -10px; 
+    z-index: 10;
+}
+
+.login{
+    float: right;
+    right:30px;
+    height:35px;
+    line-height:35px;
+    color:gray; 
+    position:relative;
+    display:inline;         
+}
+.login a{
+    text-decoration: none;  
+
+}
+.register{
+    float: right;
+    margin-right: 50px;
+    height:35px;
+    line-height:35px;
+    color:gray;           
+}
+
+.register a{
+    text-decoration: none;  
+
+}
+.menu{  
+    width: 100%;
+    height: 50px;
+    background: rgb(187, 81, 111);
+    border: 1px solid black
+}
+.menu ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-table;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;        
+    border: 1px solid black
+}
+.left{
+    width: 20%;
+    background: gray;
+    
+    float: left;
+}
+.right{
+    width: 80%;    
+
+    float:right;
+}
+.footer{
+    width:1000px;
+    height:100px;
+    background: #f0f0f0;
+    clear:both;
+}
+
+.left >p {
+    background:white;
+    color:black;
+    font-size:22px;
+    font-family:arial;
+    padding:10px;
+    text-align:center;
+}
+.category ul{
+    width:100%;
+    height: auto; 
+}
+.category ul li{
+    list-style: none;
+
+}
+.category ul li a{
+    color:white;
+    padding:8px;
+    margin:5px;
+    text-align:center;
+    font-size:20px;
+    text-decoration:none;
+    font-family:Comic Sans Ms;
+}
+.category a:hover{
+    text-decoration: underline;
+}
+.brand ul{
+    width:100%;
+    height: auto;
+    list-style: none;
+}
+.brand ul li{
+    list-style: none;
+
+}
+.brand a:hover{
+    text-decoration: underline;
+}
+.brand ul li a{
+    color:white;
+    padding:8px;
+    margin:5px;
+    text-align:center;
+    font-size:20px;
+    text-decoration:none;
+    font-family:Comic Sans Ms;
+}
+.products_box{
+width:780px;
+text-align:center;
+margin-left:30px;
+margin-bottom:10px;
+}
+.single_product{
+float:left;
+margin-left:30px;
+padding:10px;
+}
+.single_product img{
+border:2px solid black;
+}
+.single_product:hover img {
+    opacity: 0.3;
+}
+.footer {
+    text-align: center;
+}

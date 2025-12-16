@@ -1,0 +1,155 @@
+.wrapper{
+    width: 1000px;  
+    height: auto;
+    margin:auto;          
+}
+.header{
+    height: 55px;
+    margin: auto;
+    border: 1px solid black;
+}
+#logo {
+    max-width: 150px; /* Adjust this value to your preferred width */
+    height: auto;     /* Maintains the image aspect ratio */
+}
+#form_search{
+    margin-top:10px;
+
+}
+#form_search input[type=text]{width: 250px; height: 30px}
+#form_search input[type=submit]{height: 30px}
+
+.login{
+    float: right;
+    right:30px;
+    height:35px;
+    line-height:35px;
+    color:gray; 
+    position:relative;
+    display:inline;         
+}
+.login a{
+    text-decoration: none;  
+
+}
+.register{
+    float: right;
+    margin-right: 50px;
+    height:35px;
+    line-height:35px;
+    color:gray;           
+}
+
+.register a{
+    text-decoration: none;  
+
+}
+.menu{  
+    width: 100%;
+    height: 50px;
+    background: rgb(12, 111, 192);
+    border: 1px solid black
+}
+.menu ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-table;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;        
+    border: 1px solid black
+}
+.left{
+    width: 20%;
+    background: gray;
+    
+    float: left;
+}
+.right{
+    width: 80%;    
+
+    float:right;
+}
+.footer{
+    width:1000px;
+    height:100px;
+    background: #f0f0f0;
+    clear:both;
+}
+
+.left >p {
+    background:white;
+    color:black;
+    font-size:22px;
+    font-family:arial;
+    padding:10px;
+    text-align:center;
+}
+.category ul{
+    width:100%;
+    height: auto; 
+}
+.category ul li{
+    list-style: none;
+
+}
+.category ul li a{
+    color:white;
+    padding:8px;
+    margin:5px;
+    text-align:center;
+    font-size:20px;
+    text-decoration:none;
+    font-family:Comic Sans Ms;
+}
+.category a:hover{
+    text-decoration: underline;
+}
+.brand ul{
+    width:100%;
+    height: auto;
+    list-style: none;
+}
+.brand ul li{
+    list-style: none;
+
+}
+.brand a:hover{
+    text-decoration: underline;
+}
+.brand ul li a{
+    color:white;
+    padding:8px;
+    margin:5px;
+    text-align:center;
+    font-size:20px;
+    text-decoration:none;
+    font-family:Comic Sans Ms;
+}
+.products_box{
+width:780px;
+text-align:center;
+margin-left:30px;
+margin-bottom:10px;
+}
+.single_product{
+float:left;
+margin-left:30px;
+padding:10px;
+}
+.single_product img{
+border:2px solid black;
+}
+.single_product:hover img {
+    opacity: 0.3;
+}
+.footer {
+    text-align: center;
+}
